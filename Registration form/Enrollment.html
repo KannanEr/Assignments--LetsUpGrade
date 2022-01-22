@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Enrollment form for a course registration</title>
+</head>
+<body>
+    <h1>Student Registration Form</h1>
+    <h3>fill out the mandatory fields*</h3><br>
+    <form>
+        <pre>
+<label>Student Name</label>
+<input type="text" placeholder="first name" required>     <input type="text" placeholder="middle name">     <input type="text" placeholder="last name" required><br>
+<label>Date of Birth</label>                           <label>Gender</label> 
+<input type="date" required>                   <input type="radio" name="gneder">Male   <input type="radio" name="gneder">Female  <input type="radio" name="gneder">Prefer not to say <br>
+<label>Email ID</label>                                <label>Mobile Number</label>
+<input type="email" placeholder="Enter your mail ID" required>               <input type="text" placeholder="Enter your 10 digit number" name="number" required><br>
+<label>Address</label>
+<input type="text" placeholder="Enter your address" required>
+<label>D.No and Street name</label><br>
+<input type="text" placeholder="Enter your city" required>     <input type="text" placeholder="Enter your state/province" required>     <input type="text" placeholder="Enter your pincode" required>
+<label>City</label>                          <label>State/province</label>                <label>Pincode</label><br>
+<label>Select the Course do you want to learn.</label>    <select placeholder="Please select" required><option>HTML & CSS Essentials Zero to Hero Program </option><option>JavaScript Essentials Zero to Hero Program</option>
+<option>Node.js Zero to Hero Program</option><option>Machine Learning Essentials Zero to Hero Program</option><option>Java Programming Zero to Hero Program</option><option>Python Essentials Zero to Hero Program</option></select><br>
+<label>Please select the appropriate batch timing</label>
+<input type="radio" name="batch"> Batch 1 (10AM - 1PM)
+<input type="radio" name="batch"> Batch 2 (3PM - 6PM) 
+
+<label>Comments if any:</label>
+<textarea name="comments" cols="30"></textarea>
+
+<a href="t&d.html" target="_blank" >Terms & Condtions</a>
+
+<input type="checkbox" required> I certify that the information I am about to provided is true and complete to the best of my knowledge.
+</pre>
+
+<input type="submit" value="Register now">       <input type="reset">
+</form>
+
+</body>
+</html>

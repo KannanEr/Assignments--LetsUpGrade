@@ -1,0 +1,58 @@
+*{
+    margin: 5;
+    padding: 5;
+    font-family: "montserrat",sans-serif;
+}
+.section {
+    background: url(BG.jpg) no-repeat center;
+    background-size: cover;
+    padding: 50px 0;
+}
+
+.section h1 {
+    text-align: center;
+    color: rgb(112, 248, 248);
+}
+.section h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+}
+.section p{
+    text-align: center;
+    color: blanchedalmond;
+}
+.form{
+    max-width: 500px;
+    margin: auto;
+    padding: 0 10px;
+    overflow: hidden;
+}
+.text{
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 15px 0;
+    border: 5;
+    background: whitesmoke;
+    padding : 20px 40px; 
+    outline: none;   
+}
+
+textarea.text{
+    height: 100px;
+}
+.button{
+    float: right;
+    border: 0;
+    background: black;
+    color: white;
+    padding: 15px 50px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.button:hover{
+    background: #6ceb3a ;
+    color: black;
+}

@@ -1,0 +1,69 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>JS Assignments-Letsupgrade</title>
+</head>
+<body>
+    <h1>Area of Circle</h1>
+<div class="day1">
+    <p>The area enclosed by a circle of radius r is πr<sup>2</sup>. Enter the radius of circle do you 
+       want to find the area of cicle.</p>
+<div class="circle">
+    <form>
+        <label for="rad">Radius</label><br> 
+        <input type="number" id="rad" min=1 required ><br><br>
+        <button onclick="Area()" class="button">Find</button>
+    </form>
+</div> 
+</div> <hr>
+
+    <h1>Login Page</h1>
+<div class="day3">
+    <p>Once you got the login credentials please login below to procced.</p>
+    <div class="login">
+        <form>
+            <label for="mail">Enter your mail id.</label><br>
+            <input type="email" id="mail" required><br><br>
+            <label for="pass">Password</label><br>
+            <input type="password" id="pass" required><br><br>
+            <button onclick="Check()" class="button">Login</button>
+        </form>
+    </div>
+</div><hr>
+
+    <h1>Tables</h1>
+<div class="day4">
+    <p>In mathematics, a multiplication table is a mathematical table used to define 
+       a multiplication operation for an number.</p>
+<div class="table">
+    <form>
+        <button onclick="Table()" class="button">Click here to proceed</button>
+    </form>
+</div><br>
+ <p>Note: Resultant table will be displayed in the console.</p>
+</div><hr>
+
+<h1>Background color changing</h1>
+<div class="day5">
+<p>There are four options are given by default to changing the background color of the particular region mentiond below. 
+   Also you can select your own color in the input section given below. </p>
+
+   <div class="color">
+     <p>Your color will appear here.</p>
+   </div>
+  <div class="change">
+      <form>
+    <input type="color" id="get"> Select color <br><br>
+    <button class="button" id="btn">click to change</button>
+      </form>
+  </div>
+</div>
+
+<script src="script.js" ></script>
+</body>
+</html>

@@ -1,0 +1,47 @@
+*{
+    margin: 1;
+    padding: 50;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body{
+    background-color: lightblue;
+}
+h1 {
+    background-color:crimson;
+    color: snow;
+    text-align:center;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.day1, .day3, .day4, .day5{
+    font-family: monospace;
+    background-color:burlywood;
+    margin: 10px;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    overflow: hidden;
+}
+.circle, .login, .table {
+    position: relative;
+    left: 50px;
+}
+.button{
+    border-radius: 5px;
+    border-color:darkgreen;
+    text-align: center;
+}
+.button:hover {
+    background-color:gray;
+    color: honeydew;
+}
+.color {
+    background-color: whitesmoke;
+    text-align: center;
+    width: 500px;
+    height: 50px;
+    margin: 10px;
+}
+.change{
+    position: relative;
+    left: 550px;
+    bottom: 60px;
+}
